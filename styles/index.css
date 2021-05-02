@@ -1,0 +1,70 @@
+.header {
+    min-height: 80px;
+    border: 1px solid red;
+}
+
+.header__container {
+    max-width: 1206px;
+    min-height: 44px;
+}
+
+.main {
+    min-height: 570px;
+    border: 1px solid red;
+}
+
+.customers {
+    min-height: 146px;
+    border: 1px solid red;
+}
+.customers__row {
+    height: 146px;
+}
+
+.planAndManage {
+    min-height: 776px;
+    border: 1px solid red;
+}
+
+.features {
+    min-height: 885px;
+    border: 1px solid red;
+}
+
+.stats {
+    min-height: 343px;
+    border: 1px solid red;
+}
+
+.blog {
+    min-height: 865px;
+    border: 1px solid red;
+}
+
+.quotes {
+    min-height: 480px;
+    border: 1px solid red;
+}
+
+.faq {
+    min-height: 965px;
+    border: 1px solid red;
+}
+
+.getStarted {
+    min-height: 447px;
+    border: 1px solid red;
+}
+
+.newsletter {
+    min-height: 332px;
+    border: 1px solid red;
+}
+
+.footer {
+    min-height: 287px;
+    border: 1px solid red;
+}
+
+
+
