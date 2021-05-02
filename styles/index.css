@@ -28,7 +28,20 @@
 
 .features {
     min-height: 885px;
+    padding-top: 171px;
+    padding-bottom: 171px;
     border: 1px solid red;
+    background-image: url(./../assets/img/features/clouds.svg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    
+}
+.features__container {
+    /* background-image: url(./../assets/img/features/clouds.svg);
+    background-repeat: no-repeat; */
+}
+.features__span {
+    margin: 0 48px 0 48px;
 }
 
 .stats {
