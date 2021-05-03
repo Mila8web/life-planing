@@ -32,7 +32,7 @@
         <section class="customers">
             <div class="container">
                 <div class="customers__row row align-items-center">
-                    <div class="col-10 offset-1 d-flex justify-content-between">
+                    <div class="col-10 offset-1 d-flex justify-content-between flex-wrap">
                         <a class="icon" href="#">
                             <img src="./assets/img/customers/bitbucket.svg" alt="icon" width="117" height="30">
                         </a>
@@ -57,48 +57,47 @@
 
         <section class="features">
             <div class="container features__container">
-                <div class="row text-center">
+                <div class="row text-center justify-content-between">
                     <div class="col">
-                        <h2>ABOUT US</h2>
-                        <p>Read about our app</p>
+                        <h2 class="container features__title">ABOUT US</h2>
+                        <p class="container features__text">Read about our app</p>
                     </div>
                 </div>
-                <div class="row offset-1">
-                    <div class="col">
+                <div class="row offset-1 text-center features__block">
+                    <div class="col d-flex flex-column align-items-center">
                         <div>
                             <img src="./assets/img/features/overview.svg" alt="overview">
                         </div>
-                        <title>Overview</title>
-                        <p>Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
+                        <h3 class="features__block-title">Overview</h3>
+                        <p class="features__block-description">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</p>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex flex-column align-items-center">
                         <div>
                             <img src="./assets/img/features/files.svg" alt="">
                         </div>
-                        <title>Files</title>
-                        <p>No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
+                        <h3 class="features__block-title">Files</h3>
+                        <p class="features__block-description">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</p>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex flex-column align-items-center">
                         <div>
                             <img src="./assets/img/features/meeting-chats.svg" alt="">
                         </div>
-                        <title>Meeting chats</title>
-                        <p>Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
+                        <h3 class="features__block-title">Meeting chats</h3>
+                        <p class="features__block-description">Vim ne tacimates neglegentur. Erat diceret omittam at est.</p>
                     </div>
-                    <div class="col">
+                    <div class="col d-flex flex-column align-items-center">
                         <div>
                             <img src="./assets/img/features/save-events.svg" alt="overview">
                         </div>
-                        <title>Save events</title>
-                        <p>Nisl idque mel ea, nominati voluptatum.
-                        </p>
+                        <h3 class="features__block-title">Save events</h3>
+                        <p class="features__block-description">Nisl idque mel ea, nominati voluptatum.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col d-flex justify-content-center">
-                        <button class="btn bg-danger">Read more</button>
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <button class="btn btn--red">Read more</button>
                         <span class="features__span">OR</span>
-                        <button class="btn bg-primary">Get started</button>
+                        <button class="btn btn--blue">Get started</button>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,58 @@
+/* Здесь подключаем шрифты, используя правило @font-face*/
+@font-face {
+    font-family: "OpenSansBold";
+    src: url(./../assets/fonts/OpenSans-Bold.ttf);
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "OpenSansSemiBold";
+    src: url(./../assets/fonts/OpenSans-SemiBold.ttf);
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "QuicksandBold";
+    src: url(./../assets/fonts/Quicksand-Bold.ttf);
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "QuicksandMedium";
+    src: url(./../assets/fonts/Quicksand-Medium.ttf);
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "QuicksandRegular";
+    src: url(./../assets/fonts/Quicksand-Regular.ttf);
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(./../assets/fonts/Roboto-Medium.ttf);
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(./../assets/fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+
+
+/* Стилируем структуру */
+
 .header {
     min-height: 80px;
     border: 1px solid red;
@@ -18,7 +73,7 @@
     border: 1px solid red;
 }
 .customers__row {
-    height: 146px;
+    min-height: 146px;
 }
 
 .planAndManage {
@@ -27,21 +82,79 @@
 }
 
 .features {
+    border: 1px solid red;
     min-height: 885px;
     padding-top: 171px;
     padding-bottom: 171px;
-    border: 1px solid red;
     background-image: url(./../assets/img/features/clouds.svg);
-    /* background-size: cover; */
+    background-position: center 91px;
     background-repeat: no-repeat;
     
 }
-.features__container {
-    /* background-image: url(./../assets/img/features/clouds.svg);
-    background-repeat: no-repeat; */
+.features__title {
+    font-family: "RobotoMedium";
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+}
+.features__text {
+    font-family: "QuicksandMedium";
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #3D4F9F;
+}
+.features__block {
+    margin: 92px 0 92px;
+}
+.features__block-title {
+    margin: 33px 0 25px;
+    font-family: "OpenSansBold";
+    font-size: 14px;
+    line-height: 25px;
+    color: #4074F8;
+}
+.features__block-description {
+    max-width: 140px;
+    font-family: "OpenSansSemiBold";
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+}
+.btn--red {
+    background-color: #FFD7D7;
 }
 .features__span {
     margin: 0 48px 0 48px;
+    font-family: "OpenSansSemiBold";
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #ADB3CB;
+    position: relative;
+}
+
+.features__span::before,
+.features__span::after {
+    display: block;                  
+    width: 15px;
+    height: 1px;                    
+    content: '';                     
+    position: absolute;              
+    border-bottom: 1px solid #DAE4FE;   
+    top: 50%;                         
+}
+.features__span::before {                        
+    right: 24px;
+}
+.features__span::after {                      
+    right: -24px;
+}
+.btn--blue {
+    background-color: #D2E1FF;
 }
 
 .stats {
